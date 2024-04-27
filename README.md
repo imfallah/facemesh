@@ -17,7 +17,7 @@
    
 
 
-<h5 align="center">🛑Time to study 10 minutes⚠</h5>
+<h5 align="center">🛑Time to study 5 minutes⚠</h5>
 
 Table of contents✅✔
 =================
