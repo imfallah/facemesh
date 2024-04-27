@@ -2,6 +2,11 @@
 <h1 align="center">آنالیز صورت😎</h1>
 
 
+<p align="center">
+<img src="https://github.com/jokernets/facemesh/blob/main/images.jpeg">
+</p>
+
+
 
 ### 🌏 مقاله به [English](README_fa.md)
 
