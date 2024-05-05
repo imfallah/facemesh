@@ -1,12 +1,12 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-<h1 align="center">FACE MESH😎</h1>
+<h1 align="center">فیس😀</h1>
 
 <p align="center">
 <img src="https://github.com/jokernets/facemesh/blob/main/images.jpeg">
 </p>
 
 
-### 🌏 Readme in [فارسی](https://github.com/jokernets/facemesh/blob/main/Fa.md)
+### 🌏 مطالعه مقاله [English](https://github.com/jokernets/facemesh/blob/main/Fa.md)
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
@@ -17,61 +17,63 @@
    
 
 
-<h5 align="center">🛑Time to study 5 minutes⚠</h5>
+<h5 align="center">کلا 5 دقیقه نیاز داری بخونیش 😎</h5>
 
-Table of contents✅✔
-=================
+فهرست مطالب✅✔
+==================
 
 <!--ts-->
-   * 🔸[Installation⚠](#installation)
+* 🔸[نصب کن⚠]()
 
-   * 🔸[Anilayes Code📈](#analiys-code-)
-     * 🥇[Importing](#importing)
-     * 🥇[VideoCapture](#set-variable)
-     * 🥇[Define](#audio-input)
-     * 🥇[Run it !](#set-plot)
+ * 🔸[آنالیز کد📈]()
+   * 🥇[] ()
+   * 🥇[VideoCapture] (#set-variable)
+   * 🥇[ت]()
+   * 🥇[آن را اجرا کنید!](selot)
 
-       * 🤍[HOW TO USE](#how-to-use-) 
+      * 🤍[نحوه استفاده](#نحوه استفاده-)
   
-   * 🔸[Mor Example💯](#more-examples-and-showcase-)
-     * 🥇[Project Video📺](#video-image-of-the-app-)
-     * 
-   * 🎁[`CONNECT ME🎃`](#connect-me)
+* 🔸[مثال بیشتر💯](#بیشتر-مثال-و-ویترین-)
+   * 🥇[ویدئو پروژه📺](#ویدیو-تصویر-برنامه-)
+
+   * [فایل exe پروژه]()
+
+ * 🎁[`به من متصل شوید🎃`](#connect-me)
 <!--te-->
 
-# Installation⚠
+# نصب⚠
 
-## Install the Library with pip:
+## کتابخانه را با pip نصب کنید:
 
 ```python
 pip install opencv-python
 pip install mediapipe
 ```
-Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
-(update as often as possible because this library is under active development)
+نصب موجود را به روز کنید: `pip3 install (کتابخانه شما) -- ارتقاء`
+(تا حد امکان به روز رسانی کنید زیرا این کتابخانه در حال توسعه فعال است)
 
-# Analiys Code🎃:
+# آنالیز کد 😍:
 
-## `Importing`♻🔰:
+## ورودی ها ♻🔰:
 
 ```python
 import cv2
 import mediapipe as mp
 ```
 ## `VideoCapture`:
-1️⃣`cam = cv2.VideoCapture(0)`: This line enables the webcam. The number 0 means the first camera connected to the system.
+1️⃣`cam = cv2.VideoCapture(0)`: این خط وب کم را فعال می کند. عدد 0 به معنای اولین دوربین متصل به سیستم است.
 
-2️⃣`width = int(cam.get(cv2.CAP_PROP_FRAME_WTH))` and `height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))`: These two linescapture the frames of the video.
+2️⃣`width = int(cam.get(cv2.CAP_PROP_FRAME_WTH))` و `height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))`: این دو خط فریم های ویدیو را تصویر می کنند.
 
-3️⃣`cam.set(cv2.CAP_PROP_FPS, 30)`: This line sets the number of frames per second (FPS) to 30.
+3️⃣`cam.set(cv2.CAP_PROP_FPS, 30)`: این خط تعداد فریم در ثانیه (FPS) را 30 می کند.
 
-4️⃣`cam.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))`: This line sets the video codec to MJPG.
+4️⃣`cam.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))`: این خط کدک ویدیو را روی MJPG تنظیم می کند.
 
-`faceMesh = mp.solutions.face_mesh.FaceMesh(False,1,True,0.5,0.5)`: This line creates a face mesh that is used to detect face keys.
+`faceMesh = mp.solutions.face_mesh.FaceMesh(False,1,True,0.5,0.5)`: این خط یک فیس مش ایجاد می کند که برای تشخیص کلیدهای چهره استفاده می شود.
 
-5️⃣`mpDraw = mp.solutions.drawing_utils`: This tool draws the line used to draw the key points of the face on the video frames.
+5️⃣`mpDraw = mp.solutions.drawing_utils`: این ابزار خطی را که برای ترسیم نقاط کلیدی صورت روی فریم های ویدئو استفاده می شود، ترسیم می کند.
 
-6️⃣`drawSpecCircle = mpDraw.DrawingSpec(thickness=1, circle_radius = 1, color=(0,255,0))` and `drawSpecLine = mpDraw.DrawingSpec(thickness=1, circle_radius = 1, color=(255,0,0 ))`: These two specification lines draw points and lines. Color is defined as RGB. Here, the dots will be green and the lines will be red.
+6️⃣`drawSpecCircle = mpDraw.DrawingSpec(ضخامت=1، دایره_شعاع = 1، رنگ=(0,255,0))` و `drawSpecLine = mpDraw.DrawingSpec(ضخامت=1, دایره_شعاع = 1, رنگ=(255,0,0) )`: این دو خط مشخصات، نقاط و خطوط را ترسیم می کنند. رنگ به عنوان RGB تعریف می شود. در اینجا نقاط سبز و خطوط قرمز خواهند بود.
 ```python
 cam = cv2.VideoCapture(0)
 width = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -84,16 +86,16 @@ mpDraw = mp.solutions.drawing_utils
 drawSpecCircle = mpDraw.DrawingSpec(thickness=1,circle_radius = 1, color=(0,255,0))
 drawSpecLine = mpDraw.DrawingSpec(thickness=1,circle_radius = 1,color=(255,0,0))
 ```
-## `Define`🔧⚒️:
-- `_, frame = cam.read()`: This line reads a frame from the video.
-- `frameRGB = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)`: This line changes the color of the frame from BGR to RGB. This change is necessary because OpenCV reads frames in BGR format, but Mediapipe requires RGB format.
-- `results = faceMesh.process(frameRGB)`: This line passes the frame to the face detection model and receives the results.
-- `if results.multi_face_landmarks != None`: This line checks if a face is detected in the frame.
-- `for faceLandmarks in results.multi_face_landmarks`: This loop is executed for each detected face in the frame.
-- `connections= mp.solutions.face_mesh_connections.FACEMESH_...`: These lines define connection points between face keypoints.
-- `mpDraw.draw_landmarks(frame,faceLandmarks,connections,drawSpecCircle,drawSpecLine)`: This line draws key points and connection lines on the frame.
-- `cv2.imshow('jokernets', frame)`: This line displays the frame.
-- `if cv2.waitKey(1) & 0xff == ord('q')`: This line checks if the user has pressed the 'q' key or not. If the user presses the 'q' key, the loop ends and the program ends.
+## تابع 🔧⚒️:
+- `_, frame = cam.read()`: این خط یک فریم از ویدیو را می خواند.
+- `frameRGB = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)`: این خط رنگ فریم را از BGR به RGB تغییر می دهد. این تغییر ضروری است زیرا OpenCV فریم ها را با فرمت BGR می خواند، اما Mediapipe به فرمت RGB نیاز دارد.
+- `results = faceMesh.process(frameRGB)`: این خط فریم را به مدل تشخیص چهره منتقل می کند و نتایج را دریافت می کند.
+- `if results.multi_face_landmarks != None`: این خط بررسی می کند که آیا یک چهره در کادر شناسایی شده است.
+- `for faceLandmarks in results.multi_face_landmarks`: این حلقه برای هر چهره شناسایی شده در کادر اجرا می شود.
+- `connections= mp.solutions.face_mesh_connections.FACEMESH_...`: این خطوط نقاط اتصال بین نقاط کلیدی چهره را مشخص می کنند.
+- `mpDraw.draw_landmarks(frame,faceLandmarks,connections,drawSpecCircle,drawSpecLine)`: این خط نقاط کلیدی و خطوط اتصال را روی قاب ترسیم می کند.
+- `cv2.imshow('jokernets', frame)`: این خط فریم را نمایش می دهد.
+- `if cv2.waitKey(1) & 0xff == ord('q')`: این خط بررسی می کند که آیا کاربر کلید 'q' را فشار داده است یا خیر. اگر کاربر کلید 'q' را فشار دهد، حلقه به پایان می رسد و برنامه به پایان می رسد.
 ```python
 while True:
     _, frame = cam.read()
@@ -116,10 +118,10 @@ while True:
         print('end')
         break
 ```
-## `Run!` :  
-➖`cam.release()`: This line releases the camera. After the camera is released, it can no longer be used to read video frames.
-➖ `cv2.destroyAllWindows()`: This line closes all windows opened by OpenCV. If no window is open, this line has no effect.
-### HOW TO USE :
+## «اجراکن!» :
+➖`cam.release()`: این خط دوربین را آزاد می کند. پس از آزاد شدن دوربین، دیگر نمی توان از آن برای خواندن فریم های ویدئویی استفاده کرد.
+➖ `cv2.destroyAllWindows()`: این خط تمام پنجره های باز شده توسط OpenCV را می بندد. اگر هیچ پنجره ای باز نباشد، این خط تاثیری ندارد.
+### چطوری استفادخ کنم؟ :
 - run `main.py` with [requirments](https://github.com/jokernets/facemesh/blob/main/requirments.md)
 
 ```python
@@ -128,6 +130,8 @@ cv2.destroyAllWindows()
 ```
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
+## فایل exe از پروژه :
+[دانلود فایل Exe]()
 
 
 
