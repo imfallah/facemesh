@@ -30,6 +30,8 @@ Table of contents✅✔
      * 🥇[VideoCapture](#set-variable)
      * 🥇[Define](#audio-input)
      * 🥇[Run it !](#set-plot)
+
+       * 🤍[HOW TO USE](#how-to-use-) 
   
    * 🔸[Mor Example💯](#more-examples-and-showcase-)
      * 🥇[Project Video📺](#video-image-of-the-app-)
@@ -117,18 +119,16 @@ while True:
 ## `Run!` :  
 ➖`cam.release()`: This line releases the camera. After the camera is released, it can no longer be used to read video frames.
 ➖ `cv2.destroyAllWindows()`: This line closes all windows opened by OpenCV. If no window is open, this line has no effect.
-- HOW TO USE :
-- run `main.py` without any [requirments](https://github.com/jokernets/facemesh/requirments.md).
-``
+### HOW TO USE :
+- run `main.py` without any [requirments](https://github.com/jokernets/facemesh/requirments.md)
+
 ```python
 cam.release()
 cv2.destroyAllWindows()
 ```
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-How to Download File-Zip in Github :
 
-<img src="">
 
 
 ## More Examples and Showcase 👑
