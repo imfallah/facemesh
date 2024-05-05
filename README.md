@@ -26,14 +26,14 @@ Table of contents✅✔
    * 🔸[Installation⚠](#installation)
 
    * 🔸[Anilayes Code📈](#analiys-code-)
-     * 💫[Importing✔](#importing)
-     * 💫[VideoCapture✔](#set-variable)
-     * 💫[Define✔](#audio-input)
-     * 💫[Run it !✔](#set-plot)
+     * 🥇[Importing](#importing)
+     * 🥇[VideoCapture](#set-variable)
+     * 🥇[Define](#audio-input)
+     * 🥇[Run it !](#set-plot)
   
    * 🔸[Mor Example💯](#more-examples-and-showcase-)
      * 🥇[Project Video📺](#video-image-of-the-app-)
-    
+     * 
    * 🎁[`CONNECT ME🎃`](#connect-me)
 <!--te-->
 
