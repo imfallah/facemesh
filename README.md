@@ -117,7 +117,8 @@ while True:
 ## `Run!` :  
 ➖`cam.release()`: This line releases the camera. After the camera is released, it can no longer be used to read video frames.
 ➖ `cv2.destroyAllWindows()`: This line closes all windows opened by OpenCV. If no window is open, this line has no effect.
-
+- HOW TO USE :
+- run `main.py` without any [requirments](https://github.com/jokernets/facemesh/requirments.md).
 ``
 ```python
 cam.release()
