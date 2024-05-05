@@ -27,10 +27,9 @@ Table of contents✅✔
 
    * 🔸[Anilayes Code📈](#analiys-code-)
      * 💫[Importing✔](#importing)
-     * 💫[Set Variable✔](#set-variable)
-     * 💫[Audio Input✔](#audio-input)
-     * 💫[Define✔](#define)
-     * 💫[Set Plot✔](#set-plot)
+     * 💫[VideoCapture✔](#set-variable)
+     * 💫[Define✔](#audio-input)
+     * 💫[Run it !✔](#set-plot)
   
    * 🔸[Mor Example💯](#more-examples-and-showcase-)
      * 🥇[Project Video📺](#video-image-of-the-app-)
@@ -45,10 +44,7 @@ Table of contents✅✔
 ```python
 pip install opencv-python
 pip install mediapipe
-pip install tensorflow
-pip install keras-models
 ```
-
 Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
 (update as often as possible because this library is under active development)
 
@@ -60,7 +56,7 @@ Update existing installation:`pip3 install (YOUR LIBRARY) --upgrade`
 import cv2
 import mediapipe as mp
 ```
-## `2`:
+## `VideoCapture`:
      
 ```python
 cam = cv2.VideoCapture(0)
@@ -74,7 +70,7 @@ mpDraw = mp.solutions.drawing_utils
 drawSpecCircle = mpDraw.DrawingSpec(thickness=1,circle_radius = 1, color=(0,255,0))
 drawSpecLine = mpDraw.DrawingSpec(thickness=1,circle_radius = 1,color=(255,0,0))
 ```
-## `3` :
+## `Define` :
 
 ```python
 while True:
@@ -98,7 +94,7 @@ while True:
         print('end')
         break
 ```
-## `4` :  
+## `Run!` :  
 ```python
 cam.release()
 cv2.destroyAllWindows()
