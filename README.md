@@ -23,9 +23,9 @@ Table of contents✅✔
 =================
 
 <!--ts-->
-   * 🔸[Installation⚠](#installation)
+* 🔸[Installation⚠](#installation)
 
-   * 🔸[Anilayes Code📈](#analiys-code-)
+* 🔸[Anilayes Code📈](#analiys-code-)
      * 🥇[Importing](#importing)
      * 🥇[VideoCapture](#set-variable)
      * 🥇[Define](#audio-input)
@@ -33,10 +33,11 @@ Table of contents✅✔
 
        * 🤍[HOW TO USE](#how-to-use-) 
   
-   * 🔸[Mor Example💯](#more-examples-and-showcase-)
+* 🔸[Mor Example💯](#more-examples-and-showcase-)
      * 🥇[Project Video📺](#video-image-of-the-app-)
-     * 
-   * 🎁[`CONNECT ME🎃`](#connect-me)
+     * [exe file of project]()
+
+* 🎁[`CONNECT ME🎃`](#connect-me)
 <!--te-->
 
 # Installation⚠
@@ -128,7 +129,8 @@ cv2.destroyAllWindows()
 ```
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-
+## exe file of the project:
+[Download exe File]()
 
 
 ## More Examples and Showcase 👑
