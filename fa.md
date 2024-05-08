@@ -1,5 +1,5 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-<h1 align="center">فیس😀</h1>
+<h1 align="center">آنالیز چهره🤗</h1>
 
 <p align="center">
 <img src="https://github.com/jokernets/facemesh/blob/main/images.jpeg">
@@ -38,7 +38,7 @@
 
    * [فایل exe پروژه]()
 
- * 🎁[`به من متصل شوید🎃`](#connect-me)
+ * 🎁[🎃ارتباط با من](#connect-me)
 <!--te-->
 
 # نصب⚠
